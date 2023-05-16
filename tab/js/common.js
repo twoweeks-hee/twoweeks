@@ -13,3 +13,12 @@ $(function(){
 		// console.log(tabArea)
 	});
 });
+$(document).on("click",".ac-ttl",function() {
+	$(this).toggleClass('act')
+	if($(this).hasClass('act')){
+		$(this).next('.ac-cont').show()
+	} else {
+		$(this).removeClass('act')
+		$(this).next('.ac-cont').hide()
+	}
+});
