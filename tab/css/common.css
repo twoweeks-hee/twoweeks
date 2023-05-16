@@ -33,7 +33,7 @@ h1{font-size: 15px;font-weight: bold;}
 
 
 /* 아코디언 */
-.acTtl{padding: 20px;border: 1px solid #ddd;}
+.acTtl{width: 100%;padding: 20px;border: 1px solid #ddd;}
 .acContent{padding: 30px 20px;border: 1px solid #ddd; border-top: 0;}
 .acContent + .acTtl{border-top: 0;}
 
