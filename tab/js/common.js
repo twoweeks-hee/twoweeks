@@ -14,11 +14,33 @@ $(function(){
 	});
 });
 $(document).on("click",".ac-ttl",function() {
+	// TODO
+	// 1.스르륵/똑딱
+	// 2.불러오는 방식 바꾸기
 	$(this).toggleClass('act')
+
 	if($(this).hasClass('act')){
-		$(this).next('.ac-cont').show()
+		if($(this).hasClass('.option1')){
+			// 스르륵
+
+		} else if($(this).hasClass('.option2')) {
+			// 똑딱
+
+		} else {
+			// 기본
+			$(this).next('.ac-cont').show()
+		}
 	} else {
 		$(this).removeClass('act')
-		$(this).next('.ac-cont').hide()
+		if($(this).hasClass('.option1')){
+			// 스르륵
+			
+		} else if ($(this).hasClass('.option2')){
+			// 똑딱
+
+		} else {
+			// 기본
+			$(this).next('.ac-cont').hide()
+		}
 	}
 });
