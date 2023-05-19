@@ -12,6 +12,7 @@ ul,ol,dl,dt,dd,li {list-style:none;padding:0;margin:0}
 table, th, td {border-collapse:collapse;border-spacing:0;font-weight: normal;}
 caption {display:block;text-indent:-9999em;overflow:hidden;height:0;font-size:0;line-height:0;}
 fieldset, blockquote, iframe, button {border:none;}
+button{cursor: pointer;}
 i, em, u, cite {font-style:normal;}
 p {vertical-align: middle;}
 strong,em, b {font-weight:normal;}
@@ -38,3 +39,7 @@ h1{font-size: 15px;font-weight: bold;}
 .acContent + .acTtl{border-top: 0;}
 
 
+/* this 확인 */
+
+[class*="thisChk"]{margin-bottom: 10px;padding: 10px 20px;background:skyblue;display: block;}
+.thisChk{}
